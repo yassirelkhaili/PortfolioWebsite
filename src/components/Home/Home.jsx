@@ -6,7 +6,8 @@ import { FaArrowCircleDown } from 'react-icons/fa';
 import { FaFreeCodeCamp } from 'react-icons/fa';
 import { BsGithub } from 'react-icons/bs';
 import { BsFacebook } from 'react-icons/bs';
-import { SiNetlify } from 'react-icons/si'
+import { SiNetlify } from 'react-icons/si';
+import Tilt from 'react-parallax-tilt';
 
 const Home = () => {
     const el = useRef(null);
@@ -34,10 +35,12 @@ const Home = () => {
   return <div className="container" id="Home">
     <div className="main-header">
     <p className="header">Hi, There,<p className="fullname">I'm Yassir <span className="Lastname">Elkhaili</span></p><div className="animated-text"><span className="holder">I Am Into </span><span className="animated" ref={el}></span></div></p> 
+    <Tilt tiltEnable="true" perspective="4000">
     <img className="profilepic" alt="profilpic" src={require("../../assets/profilepic.webp")}></img>
+    </Tilt>
     </div>
-    <div className="about-button">
-      <a id="about-button" href="#About">About Me  <FaArrowCircleDown /></a>
+    <div className="my-about-button">
+      <a id="about-button" href="#About">About Me <span className="myIcon"><FaArrowCircleDown /></span></a>
     </div>
     <div className="socials">
       <ul id="socials">

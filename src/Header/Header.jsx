@@ -2,7 +2,6 @@ import React from "react";
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import "./Header.css";
 
 const Header = () => {
   const particlesInit = useCallback(async engine => {
@@ -55,7 +54,7 @@ const particlesLoaded = useCallback(async container => {
                             default: "bounce",
                         },
                         random: false,
-                        speed: 2,
+                        speed: 1,
                         straight: false,
                     },
                     number: {
@@ -63,7 +62,7 @@ const particlesLoaded = useCallback(async container => {
                             enable: true,
                             area: 600,
                         },
-                        value: 60,
+                        value: 40,
                     },
                     opacity: {
                         value: 0.5,

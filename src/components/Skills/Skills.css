@@ -1,0 +1,43 @@
+#skills-header {
+    font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abilities {
+    color: #1DDDBC;
+}
+
+.card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-row-gap: 30px;
+    margin-top: 50px;
+    grid-column-gap: 0px;
+    padding-left: 155px;
+    width: 78pc;
+}
+
+.skills-images {
+    height: 50px;
+    width: 50px;
+}
+
+.skill-container {
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 16px;
+    width: 160px;
+    padding: 20px;
+}
+
+.skill-title {
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}

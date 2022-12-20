@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.me {
+color: #1DDDBC;
+}
+
+.about-header {
+    font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+    padding-top: 100px;
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.age-email {
+    display: flex;
+    gap: 186px;
+}
+
+.whatsapp-address {
+    display: flex;
+    gap: 50px;
+}
+
+.about-content {
+    padding-top: 50px;
+    padding-left: 155px;
+    max-width: 800px;
+}
+
+.about-content > * {
+    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.about-links > * {
+    padding-bottom: 8px;
+}
+
+.about-button {
+    margin-left: 190px;
+    margin-top: 40px;
+}
+
+.email {
+    margin-left: 15px;
+}
+
+.about-description {
+    font-size: 20px;
+}
+
+.about-content-header {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.name {
+    color: #1DDDBC;
+}
+
+#about-btn  {
+    border-radius: 30px;
+    background-color: #0037ec;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+    transition: 0.3s;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 500;
+    width: 200px;
+}
+
+#about-btn:hover {
+    background-color: #0030ce;
+    }
+    
+.download-icon {
+    transition: 0.3s;
+}
+
+.download-icon:hover {
+    padding-left: 4px;
+}
+
+
