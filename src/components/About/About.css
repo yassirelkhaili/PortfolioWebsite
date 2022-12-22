@@ -26,13 +26,14 @@ color: #1DDDBC;
 }
 
 .about-content {
-    padding-top: 50px;
+    display: flex;
+    gap: 60px;
     padding-left: 155px;
-    max-width: 800px;
+    margin-top: 60px;
 }
 
 .about-content > * {
-    padding-bottom: 15px;
+    padding-bottom: 30px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -90,4 +91,7 @@ div.about-links > * {
     padding-left: 4px;
 }
 
-
+.content > * {
+    padding-bottom: 15px;
+    max-width: 620px;
+}

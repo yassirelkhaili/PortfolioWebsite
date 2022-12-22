@@ -1,0 +1,67 @@
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 0px;
+    margin-left: 155px;
+    margin-top: 50px;
+    width: 55pc;
+    gap: 60px;
+    max-height: 340px;
+}
+
+.personalProjects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 0px;
+    margin-left: 155px;
+    margin-top: 50px;
+    width: 55pc;
+    gap: 60px;
+}
+
+.caption {
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    padding: 10px;
+}
+
+.projects-img {
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.projects-div {
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.02);
+    border-radius: 10px;
+    padding: 20px;
+    width: 308px;
+}
+
+.live {
+    border-radius: 6px;
+    background-color: #0037ec;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+    transition: 0.3s;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.live:hover {
+    background-color: #0030cf;
+}
+
+
+
+
+

@@ -1,7 +1,7 @@
 #skills-header {
     font-size: 40px;
     font-family: 'Orbitron', sans-serif;
-    padding-top: 100px;
+    padding-top: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,10 +28,9 @@
 
 .skill-container {
     text-align: center;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(5px);
-    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.02);
+    border-radius: 10px;
     width: 160px;
     padding: 20px;
 }

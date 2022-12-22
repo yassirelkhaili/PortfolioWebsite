@@ -1,63 +1,63 @@
 const cardData = [
     {
         name: "ReactJS",
-        icon: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
+        icon: require("../../assets/reactjs.webp")
     },
     {
         name: "Bootstrap",
-        icon: "https://img.icons8.com/color/48/000000/bootstrap.png"
+        icon: require("../../assets/bootstrap.webp")
     },
     {
         name: "Sass",
-        icon: "https://img.icons8.com/color/48/null/sass.png"
+        icon: require("../../assets/sass.webp")
     },
     {
         name: "HTML5",
-        icon: "https://img.icons8.com/color/48/null/html-5--v1.png"
+        icon: require("../../assets/html5.webp")
     },
     {
         name: "CSS3",
-        icon: "https://img.icons8.com/color/48/000000/css3.png"
+        icon: require("../../assets/css3.webp")
     },
     {
         name: "JavaScript",
-        icon: "https://img.icons8.com/color/48/000000/javascript--v1.png"
+        icon: require("../../assets/javascript.webp")
     },
     {
         name: "PHP",
-        icon: "https://img.icons8.com/offices/48/000000/php-logo.png"
+        icon: require("../../assets/php.webp")
     },
     {
-        name: "MySQL",
-        icon: "https://img.icons8.com/color/48/000000/mysql-logo.png"
+        name: "SQL",
+        icon: require("../../assets/mysql.webp")
     },
     {
         name: "Netlify",
-        icon: "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
+        icon: require("../../assets/netlify.webp")
     },
     {
         name: "jQuery",
-        icon: "https://img.icons8.com/ios-filled/48/1169ae/jquery.png"
+        icon: require("../../assets/jquery.webp")
     },
     {
         name: "Git",
-        icon: "https://img.icons8.com/color/48/null/git.png"
+        icon: require("../../assets/git.webp")
     },
     {
         name: "GitHub",
-        icon: "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+        icon: require("../../assets/github.webp")
     },
     {
         name: "WordPress",
-        icon: "https://img.icons8.com/color/48/000000/wordpress.png"
+        icon: require("../../assets/wordpress.webp")
     },
     {
       name: "Csharp",
-      icon: "https://img.icons8.com/color/48/null/c-sharp-logo.png"
+      icon: require("../../assets/csharp.webp")
     },
     {
       name: "Figma",
-      icon: "https://img.icons8.com/color/48/null/figma--v1.png"
+      icon: require("../../assets/figma.webp")
     }
 ]
 

@@ -35,7 +35,7 @@ const Home = () => {
   return <div className="container" id="Home">
     <div className="main-header">
     <p className="header">Hi, There,<p className="fullname">I'm Yassir <span className="Lastname">Elkhaili</span></p><div className="animated-text"><span className="holder">I Am Into </span><span className="animated" ref={el}></span></div></p> 
-    <Tilt tiltEnable="true" perspective="4000">
+    <Tilt tiltEnable="true" perspective="10000">
     <img className="profilepic" alt="profilpic" src={require("../../assets/profilepic.webp")}></img>
     </Tilt>
     </div>
