@@ -95,3 +95,8 @@ div.about-links > * {
     padding-bottom: 15px;
     max-width: 620px;
 }
+
+p.paragraph {
+    text-align: justify;
+    line-height: 25px;
+}

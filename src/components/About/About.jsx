@@ -27,7 +27,7 @@ personalPic.setAttribute("src", require("../../assets/img1.webp"));
         <div className="content">
         <div className="about-content-header"><h1>I'm <span className="name">Yassir</span></h1></div>
         <div className="about-content-subheader"><h4>Student Developer</h4></div>
-        <div className="about-description"><p>I am a Student, Developer and Trainee based in Morocco, Marrakech. <br></br>I studied Computer science at The Faculty of Science and Technology <br></br>in Marrakech and the Studienkolleg of Johannes Gutenberg University Mainz, Germany. I am very passionate about Computer science and Information Technology
+        <div className="about-description"><p className="paragraph">I am a Student, Developer and Trainee based in Morocco, Marrakech. <br></br>I studied Computer science at The Faculty of Science and Technology <br></br>in Marrakech and the Studienkolleg of Johannes Gutenberg University Mainz, Germany. I am very passionate about Computer science and Information Technology
           in general. I am Currently working at Eureka Creation as a Web Developer. Constantly trying to expand my knowledge and improve my coding skills. Learning never stops.</p></div>
         <div className="about-links">
         <div className="age-email">

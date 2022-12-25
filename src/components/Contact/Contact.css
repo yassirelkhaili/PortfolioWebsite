@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .form-container {
     width: 100%;
@@ -76,4 +77,11 @@ textarea {
 
 .form-button:hover {
     background-color: #002ec5;
+}
+
+.submitmessage {
+    text-align: center;
+    color: #1DDDBC;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
 }

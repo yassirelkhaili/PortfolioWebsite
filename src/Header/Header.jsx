@@ -1,9 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
 const Header = () => {
+    const [siteTitel, setsiteTitel] = useState("");
+    const [siteIcon, setsiteIcon] = useState("");
+    const favicon = document.getElementById("favicon");
+    document.title = siteTitel;
+    favicon.setAttribute("href", siteIcon);
+    document.addEventListener("visibilitychange", () => {
+        if (document.visibilityState === "hidden") {
+          setsiteTitel("Come Back to my Portfolio");
+          setsiteIcon("./emoji.ico");
+        } else {
+            setsiteTitel("Portfolio | Yassir Elkhaili");
+            setsiteIcon("./favicon.ico");
+        }
+      });
+      
   const particlesInit = useCallback(async engine => {
     console.log(engine);
     await loadFull(engine);
