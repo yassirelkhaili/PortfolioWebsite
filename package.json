@@ -16,8 +16,11 @@
     "react-helmet": "^6.1.0",
     "react-icons": "^4.7.1",
     "react-parallax-tilt": "^1.7.77",
+    "react-responsive-carousel": "^3.2.23",
+    "react-reveal": "^1.2.2",
     "react-scripts": "5.0.1",
     "react-tsparticles": "^2.6.0",
+    "scrollreveal": "^4.0.9",
     "tsparticles": "^2.6.0",
     "typed.js": "^2.0.12",
     "web-vitals": "^2.1.4"

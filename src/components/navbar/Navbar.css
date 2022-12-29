@@ -6,17 +6,16 @@
     --background-color: #0f0f0f;
 }
 
-.navbar {
-    display: flex;
+.container-fluid {
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar { 
     background-color: var(--background-color);
     font-size: 20px;
     font-family: 'Orbitron', sans-serif;
     height: 60px;
-    line-height: 60px;
-    gap: 400px;
-    width: 86pc;
-    position: fixed;
-    z-index: 1;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
@@ -41,11 +40,11 @@ li {
     gap: 35px;
 }
 
+ul {
+    margin-bottom: 0 !important;
+}
+
 img {
     height: 24px;
     width: 43px;
-}
-
-.header {
-    margin-left: 20px;
 }

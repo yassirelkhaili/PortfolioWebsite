@@ -8,8 +8,7 @@ color: #1DDDBC;
 .about-header {
     font-size: 40px;
     font-family: 'Orbitron', sans-serif;
-    padding-top: 100px;
-    margin-top: 55px;
+    padding-top: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,10 +25,7 @@ color: #1DDDBC;
 }
 
 .about-content {
-    display: flex;
-    gap: 60px;
-    padding-left: 155px;
-    margin-top: 60px;
+    padding-top: 50px;
 }
 
 .about-content > * {
@@ -42,12 +38,7 @@ div.about-links > * {
 }
 
 .about-button {
-    margin-left: 190px;
     margin-top: 40px;
-}
-
-.email {
-    margin-left: 15px;
 }
 
 .about-description {
@@ -93,10 +84,9 @@ div.about-links > * {
 
 .content > * {
     padding-bottom: 15px;
-    max-width: 620px;
 }
 
 p.paragraph {
     text-align: justify;
-    line-height: 25px;
+    line-height: 23px;
 }

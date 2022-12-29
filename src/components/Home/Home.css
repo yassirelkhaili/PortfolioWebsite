@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.main-header {
-    width: 200vh;
-    height: 380px;
+#Home {
     padding-top: 150px;
-    padding-left: 135px;
+}
+
+.main-header {
+    height: 380px;
     font-size: 50px;
     font-family: 'Orbitron', sans-serif;
-    display: flex;
-    gap: 170px;
 }
 
 .profilepic {
@@ -22,6 +21,7 @@
 .profilepic:hover {
     transform: scale(1.1);
 }
+
 
 #intrests {
     font-size: 18px;
@@ -41,7 +41,6 @@
 }
 
 .my-about-button {
- padding-left: 155px;
  margin-top: 20px;
 }
 

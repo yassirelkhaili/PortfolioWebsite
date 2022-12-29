@@ -14,11 +14,10 @@
 .card-wrapper {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-row-gap: 30px;
+    grid-row-gap: 40px;
     margin-top: 50px;
-    grid-column-gap: 0px;
-    padding-left: 155px;
-    width: 78pc;
+    gap: 70px;
+    padding-top: 60px;
 }
 
 .skills-images {

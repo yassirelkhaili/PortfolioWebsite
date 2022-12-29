@@ -3,12 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    outline: none;
+    --bs-gutter-x: 0rem !important;
 }
 
 html {
     scroll-behavior: smooth;
-
 }
 
 body {
@@ -18,12 +17,11 @@ body {
 
 ::-webkit-scrollbar {
   width: 9px;
-  height: 100px;
+  height: 9px;
 }
 
 ::-webkit-scrollbar-track {
   background: none; 
-  height: 100px;
 }
  
 ::-webkit-scrollbar-thumb {

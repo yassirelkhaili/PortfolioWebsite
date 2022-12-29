@@ -6,19 +6,21 @@ import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-import Header from "./Header/Header";
+import Certificates from "./components/Certificates/Certificates";
+import Header from './components/Header/Header';
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <Header />
       <Home />
       <About />
       <Skills />
       <Projects />
+      <Certificates />
       <Contact />
       <Footer />
+      <Header />
     </>
   );
 };

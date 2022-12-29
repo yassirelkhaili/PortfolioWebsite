@@ -7,11 +7,16 @@ import { BsGithub } from 'react-icons/bs';
 const Projects = () => {
   return (
     <div className="container" id="Projects">
-      <div className="skills-header projects-header" id="skills-header">
+      <div className="row">
+      <div className="col-12">
+      <div className="skills-header projects-header" id="skills-header" data-aos="fade-up" >
         <FaClipboardList />
         <span className="abilities">Projects</span>
       </div>
-      <div className="projects-container">
+      </div>
+      </div>
+      <div className="row">
+      <div className="projects-container col-12">
       {WorkProjectsData.map((data) => {
             return (
                 <WorkProjects caption={data.caption} snippet={data.snippet} link={data.link} key={data.id}/>
@@ -28,13 +33,14 @@ const Projects = () => {
       }
     </div>
     </div>
+    </div>
   );
 };
 
 function WorkProjects ({caption, snippet, link}) {
   return (
   <Tilt tiltEnable="true" perspective=" 15000">
-  <div className="projects-div">
+  <div className="projects-div" data-aos="fade-up">
       <img className="projects-img" src={snippet} alt="projects"></img>
       <p className="caption">{caption}</p>
       <a href={link} className="live" target="_blank" rel="noreferrer">Live Website</a>
@@ -47,7 +53,7 @@ function PersonalProjects ({caption, snippet, link, github}) {
   return (
       <>
   <Tilt tiltEnable="true" perspective="4000">
-  <div className="projects-div">
+  <div className="projects-div" data-aos="fade-up">
       <img className="projects-img" src={snippet} alt="projects"></img>
       <p className="caption">{caption}</p>
       <a href={github} className="live" target='_blank' rel="noreferrer"><BsGithub />Github</a>

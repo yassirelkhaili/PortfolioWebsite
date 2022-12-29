@@ -32,25 +32,31 @@ const Home = () => {
         typed.current.destroy();
       }
     }, [])
-  return <div className="container" id="Home">
-    <div className="main-header">
+  return ( 
+  <div className="container" id="Home">
+    <div className="row g-5">
+    <div className="header-div col-6">
+    <div className="main-header" data-aos="fade-up">
     <p className="header">Hi, There,<p className="fullname">I'm Yassir <span className="Lastname">Elkhaili</span></p><div className="animated-text"><span className="holder">I Am Into </span><span className="animated" ref={el}></span></div></p> 
-    <Tilt tiltEnable="true" perspective="10000">
-    <img className="profilepic" alt="profilpic" src={require("../../assets/profilepic.webp")}></img>
-    </Tilt>
-    </div>
-    <div className="my-about-button">
+    <div className="my-about-button" data-aos="fade-up">
       <a id="about-button" href="#About">About Me <span className="myIcon"><FaArrowCircleDown /></span></a>
-    </div>
-    <div className="socials">
       <ul id="socials">
         <li><a href="https://www.freecodecamp.org/Blue479" target="_blank" rel="noreferrer"><FaFreeCodeCamp className="icon"/></a></li>
         <li><a href="https://github.com/yassirelkhaili" target="_blank" rel="noreferrer"><BsGithub className="icon"/></a></li>
         <li><a href="https://www.facebook.com/profile.php?id=100010165301312" target="_blank" rel="noreferrer"><BsFacebook className="icon"/></a></li>
         <li><a href="https://app.netlify.com/teams/yassirelkhaili/overview" target="_blank" rel="noreferrer"><SiNetlify className="icon"/></a></li>
-      </ul>
+      </ul>  
     </div>
-  </div>;
+    </div>
+    </div>
+    <div className="col-6">
+    <Tilt tiltEnable="true" perspective="10000">
+    <img className="profilepic" alt="profilpic" src={require("../../assets/profilepic.webp")} data-aos="fade-up"></img>
+    </Tilt>
+    </div>
+    </div>
+    </div>
+  );
 };
 
 export default Home;

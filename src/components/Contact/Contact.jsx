@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { useEffect } from 'react';
 import "./Contact.css";
 import { BiMessageDetail } from "react-icons/bi";
 import { BsPersonSquare } from "react-icons/bs";
@@ -11,15 +10,8 @@ import { AiFillMessage } from "react-icons/ai";
 
 const Contact = () => {
   const [data, setdata] = useState({});
-  const [buttonState, setbuttonState] = useState();
-  let message = document.getElementById("submitmessage");
-  useEffect(() => {
-    window.localStorage.setItem("BUTTON_STATE", buttonState);
-  }, [buttonState]);
-  useEffect(() => {
-  let data = window.localStorage.getItem("BUTTON_STATE");
-  setbuttonState(data);
-  }, []);
+  const [buttonState, setbuttonState] = useState(false);
+  const [submitmessage, setsubmitmessage] = useState("");
   const configObject = {
     SecureToken : "d6413833-8f3a-4600-99e9-a4cec961a2f3",
     To : data.email,
@@ -30,7 +22,7 @@ const Contact = () => {
 
   const configHost = {
     SecureToken : "d6413833-8f3a-4600-99e9-a4cec961a2f3",
-    To : "elkhailiyassir0@gmail.com",
+    To : "elkhailiyassir@gmail.com",
     From : "elkhailiyassir@gmail.com",
     Subject : "Company/Unternehmen",
     Body : `Firstname: ${data.fname} Lastname: ${data.lname} Company: ${data.company} Email: ${data.email} Phone: ${data.phone} Message: ${data.message}`
@@ -40,21 +32,19 @@ const Contact = () => {
     setdata({...data, [e.target.name] : e.target.value});
   };
   const handleSubmit = (e) => {
-    e.preventDefault();
-  if (buttonState === true) {
-    message.textContent = "Please contact me via elkhailiyassir@gmail.com instead!";
-  } else {
-  window.Email.send(configObject).then(message.textContent="Thank you for your message, I will contact you back as soon as possible!");
-  window.Email.send(configHost).then(() => {
-    setbuttonState(true);
+  e.preventDefault();
+  window.Email.send(configObject).then(() => {
+    setsubmitmessage("Thank you for your message, I will contact you back as soon as possible!")
   });
+  window.Email.send(configHost).then(setbuttonState(true));
   }
-  }
-  return (
-    <div className='wrapper' id="Contact" onSubmit={handleSubmit}>
-      <div className="contact-header"><BiMessageDetail /> Contact<span className="me">Me</span></div>
+    
+    return (
+    <div id='Contact'>
+      <div className="contact-header" data-aos="fade-up"><BiMessageDetail /> Contact<span className="me">Me</span></div>
+      <div className='wrapper'>
     <div className='form-container'>
-      <form className="form" id="form">
+      <form className="form" id="form" onSubmit={handleSubmit} data-aos="fade-up">
       <div className='elements-wrapper'>
       <label for="form-fname" className='fname-label' id='fname-label' ><BsPersonSquare /> Firstname</label>
       <input className='form-fname' id='form-fname' name='fname' placeholder='Firstname' type="text" onChange={handleChange} required></input>
@@ -80,8 +70,12 @@ const Contact = () => {
       <textarea className='form-message' id='form-message' name='message' placeholder='Message' maxLength="2000" onChange={handleChange} required></textarea>
       </div>
       <button className='form-button' id='form-button' type='submit' disabled={buttonState}>Send Message</button>
-      <p className='submitmessage' id='submitmessage'></p>
+      <p className='submitmessage' id='submitmessage'>{submitmessage}</p>
       </form>
+    </div>
+    <div className='disclaimer-div'>
+            <p className='disclaimer-text'><span id='note'>Disclaimer:</span><span> The form above is limited to 100 smtp requests per day.<br></br> If you wish to send multiple messages at once or use attatchements,<br></br> please contact me directly on my E-mail: <span id="lname">elkhailiyassir@gmail.com</span></span></p>
+            </div>
     </div>
     </div>
   )

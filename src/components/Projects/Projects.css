@@ -1,22 +1,16 @@
 .projects-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 0px;
-    margin-left: 155px;
     margin-top: 50px;
-    width: 55pc;
-    gap: 60px;
+    gap: 100px;
     max-height: 340px;
 }
 
 .personalProjects-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 0px;
-    margin-left: 155px;
-    margin-top: 50px;
-    width: 55pc;
-    gap: 60px;
+    margin-top: 130px;
+    gap: 100px;
 }
 
 .caption {
