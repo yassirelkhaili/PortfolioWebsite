@@ -1,12 +1,19 @@
 import React from 'react'
-import "./Navbar.css"
 
 const Navbar = () => {
+  const toggleElements = () => {
+    let icon = document.getElementsByClassName("animated-icon3")[0];
+    icon.classList.toggle("open");  
+    let navLinks = document.getElementById("navbar");
+    let navbar = document.getElementsByClassName("navbar")[0];
+    navLinks.classList.toggle("active1");
+    navbar.classList.toggle("active2");
+  }
   return (
     <div className='container-fluid'>
         <div className='navbar row'>
         <span className='header col'><img alt='logo' className="logo" src={require("../../assets/logo.png")}></img>Yassir Elkhaili</span>
-        <ul id='navbar' className='col'>
+        <ul className='col' id='navbar'>
             <li><a href='#Home'>Home</a></li>
             <li><a href='#About'>About</a></li>
             <li><a href='#Skills'>Skills</a></li>
@@ -15,7 +22,10 @@ const Navbar = () => {
             <li><a href='#Contact'>Contact</a></li>
         </ul>
         </div>
-    </div>
+        <a className="animated-icon3" onClick={toggleElements}>
+            <span></span><span></span><span></span>
+              </a>
+        </div>
   )
 }
 
