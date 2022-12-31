@@ -5,15 +5,6 @@ import { FaDownload } from "react-icons/fa";
 import Tilt from "react-parallax-tilt";
 
 const About = () => {
-  function changeImg() {
-    const personalPic = document.getElementById("personalpic");
-    personalPic.setAttribute("src", require("../../assets/img1.webp"));
-  }
-  function changeImgBack() {
-    const personalPic = document.getElementById("personalpic");
-    personalPic.setAttribute("src", require("../../assets/img2.webp"));
-  }
-
   return (
     <div className="container" id="About">
       <div className="row">
@@ -25,12 +16,10 @@ const About = () => {
         <div className="col-6" data-aos="fade-up">
           <Tilt tiltEnable="true" perspective="8000">
             <img
-              src={require("../../assets/img2.webp")}
+              src={require("../../assets/img1.webp")}
               alt="personalimage"
               className="profilepic img-fluid"
               id="personalpic"
-              onMouseOver={changeImg}
-              onMouseOut={changeImgBack}
             ></img>
           </Tilt>
         </div>
@@ -45,17 +34,14 @@ const About = () => {
           </div>
           <div className="about-description">
             <p className="paragraph">
-              I am a Student, Developer and Trainee based in Morocco, Marrakech.{" "}
-              <br></br>I studied Computer science at The Faculty of Science and
-              Technology <br></br>in Marrakech and the Studienkolleg of Johannes
-              Gutenberg University Mainz, Germany. I am very passionate about
-              Computer science and Information Technology in general. I am
-              Currently doing a traineeship at Webcinq Marrakech. Constantly
-              trying to expand my knowledge and improve my coding skills.
-              Learning never stops.
+            Hi there! My name is Yassir Elkhaili and I am a student, intern, and developer currently training at Webcinq Training school and interning at Eureka creation. I have a background in computer science, having studied at the Faculty of Science and Technology and at Studienkolleg Johannes Gutenburg University Mainz. I am passionate about using my skills and knowledge to build and create innovative solutions, and I am always looking for ways to improve and expand my skillset. In my free time, I enjoy staying up to date with the latest developments in the tech industry and exploring new technologies.
             </p>
           </div>
-          <div className="about-links">
+        </div>
+      </div>
+      <div className="row">
+        <div className="myLinks">
+      <div className="about-links">
             <div className="age-email">
               <div className="age">
                 <span style={{ color: "#01B9FF" }}>Age:</span>
@@ -77,18 +63,15 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="about-button">
-            <a
-              id="about-btn"
-              href="../assets/Lebenslauf_1.pdf"
-              download="Lebenslauf_1.pdf"
-              value="Download CV"
-            >
+    </div>
+    <div className="row about-button">
+          <div className="col about-col">
+            <a id="about-btn" href={require("../../assets/Lebenslauf_1.pdf")} download="Lebenslauf_1.pdf">
               Download CV <FaDownload className="download-icon" />
             </a>
           </div>
-        </div>
       </div>
+    </div>
     </div>
   );
 };

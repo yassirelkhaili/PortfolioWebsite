@@ -1,15 +1,15 @@
 .projects-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: 50px;
     gap: 100px;
+    padding-top: 80px;
     max-height: 340px;
 }
 
 .personalProjects-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: 130px;
+    padding-top: 210px;
     gap: 100px;
 }
 
