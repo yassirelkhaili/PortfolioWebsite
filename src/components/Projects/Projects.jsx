@@ -8,20 +8,18 @@ const Projects = () => {
   return (
     <div className="container" id="Projects">
       <div className="row">
-      <div className="col-12">
       <div className="skills-header projects-header" id="skills-header" data-aos="fade-up" >
         <FaClipboardList />
         <span className="abilities">Projects</span>
       </div>
       </div>
-      </div>
       <div className="row">
-      <div className="projects-container col-12">
+      <div className="projects-container">
       {WorkProjectsData.map((data) => {
             return (
                 <WorkProjects caption={data.caption} snippet={data.snippet} link={data.link} key={data.id}/>
             )
-           })};
+           })}
            </div>
     <div className="personalProjects-container">
       {

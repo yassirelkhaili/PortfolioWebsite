@@ -5,23 +5,9 @@
 }
 
 .main-header {
-    height: 380px;
     font-size: 50px;
     font-family: 'Orbitron', sans-serif;
 }
-
-.profilepic {
-    height: 400px;
-    width: 400px;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    transition: 0.3s;
-}
-
-.profilepic:hover {
-    transform: scale(1.1);
-}
-
 
 #intrests {
     font-size: 18px;
@@ -66,23 +52,22 @@ background-color: #0030ce;
 
 #socials {
     display: flex;
-    gap: 18px;
-    margin-top: 55px;
-    font-size: 22px;
-    padding-left: 0rem;
+    gap: 25px;
+    margin-top: 40px;
+    padding-left: 0rem !important;
 }
 
 #socials li a {
-    display: grid;
-    padding: 10px;
     text-decoration: none;
     color: white;
-    border-radius: 50%;
     background-color: #0037ec;
     border: none;
-    cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transition: 0.3s;
+    display: grid;
+    font-size: 23px;
+    border-radius: 50%;
+    padding: 10px;
 }
 
 #socials li a:hover {
@@ -97,3 +82,14 @@ background-color: #0030ce;
     padding-left: 6px;
 }
 
+.myprofilepic {
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: 0.3s;
+}
+
+.myprofilepic:hover {
+    transform: scale(1.1);
+}

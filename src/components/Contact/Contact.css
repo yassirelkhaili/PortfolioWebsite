@@ -1,95 +1,124 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 .form-container {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .form {
-    width: 90%;
-    max-width: 600px;
-    background-color: rgba(255, 255, 255, 0.02);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 16px;
-    margin-top: 80px;
-    padding: 20px;
-    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  width: 90%;
+  max-width: 600px;
+  background-color: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  margin-top: 80px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
-input, textarea {
-    width: 100%;
-    outline: 0;
-    color: white;
-    padding: 10px;
-    border-radius: 16px;
-    background-color: rgba(255, 255, 255, 0.02);
-    border: 1px solid #01B9FF;
-    font-size: 16px;
+input,
+textarea {
+  width: 100%;
+  outline: 0;
+  color: white;
+  padding: 10px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.02);
+  border: 1px solid #01b9ff;
+  font-size: 16px;
 }
 
 .contact-header {
-    font-size: 40px;
-    font-family: 'Orbitron', sans-serif;
-    padding-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-size: 40px;
+  font-family: "Orbitron", sans-serif;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 label {
-    margin-left: 5px;
-    font-size: 18px;
-    color: #01B9FF;
-    font-family: 'Orbitron', sans-serif;
-    padding-bottom: 10px;
+  margin-left: 5px;
+  font-size: 18px;
+  color: #01b9ff;
+  font-family: "Orbitron", sans-serif;
+  padding-bottom: 10px;
 }
 
 .form > * {
-    padding: 10px;
+  padding: 10px;
 }
 
 textarea {
-    resize: none;
+  resize: none;
 }
 
 .form-button {
-    border-radius: 30px;
-    background-color: #0037ec;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border: none;
-    transition: 0.3s;
-    padding: 12px;
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: 500;
-    width: 200px;
-    cursor: pointer;
-    margin-left: 170px;
-    margin-top: 10px;
+  border-radius: 30px;
+  background-color: #0037ec;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  transition: 0.3s;
+  color: white;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  padding: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 500;
+  width: 200px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .form-button:hover {
-    background-color: #002ec5;
+  background-color: #002ec5;
 }
 
 .submitmessage {
-    text-align: center;
-    color: #1DDDBC;
-    margin-top: 10px;
-    font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #1dddbc;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
 }
 
 .disclaimer-text {
-    text-align: center;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    padding-top: 40px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding-top: 40px;
+  width: 45%;
+  text-align: center;
+}
+
+.disclaimer-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-btn-icon:hover {
+font-size: 16px;
+}
+
+.submit-btn-icon {
+  transition: 0.2s;
+}
+
+@media (max-width: 888px) {
+  .disclaimer-text {
+    width: 60%;
+    text-align: left;
+  }
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Navbar.css"
 
 const Navbar = () => {
   const toggleElements = () => {
@@ -10,7 +11,7 @@ const Navbar = () => {
     navbar.classList.toggle("active2");
   }
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid navbar-container'>
         <div className='navbar row'>
         <span className='header col'><img alt='logo' className="logo" src={require("../../assets/logo.png")}></img>Yassir Elkhaili</span>
         <ul className='col' id='navbar'>

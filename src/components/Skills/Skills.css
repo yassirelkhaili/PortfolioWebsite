@@ -39,3 +39,18 @@
     font-family: 'Orbitron', sans-serif;
     color: white;
 }
+
+@media (max-width: 995px) {
+    .card-wrapper {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+    }
+}
+
+@media (max-width: 570px) {
+    .card-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        grid-column-gap: 0px;
+    }
+}

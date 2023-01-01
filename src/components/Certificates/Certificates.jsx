@@ -8,15 +8,11 @@ const Certificates = () => {
   return (
     <div className='certificates-container container' id='Certificates'>
         <div className='row'>
-        <div className='col-12'>
         <div className='certificates-header'>
         <div className="contact-header" data-aos="fade-up"><TbCertificate /><span className="me">Certificates</span></div>
         </div>
         </div>
-        </div>
-        <div className='row'>
-        <div className='col-12'>
-        <div className='myCarousel'>
+        <div className='myCarousel row'>
         <Carousel autoPlay={true} interval={3000} infiniteLoop={true} width="80%" swipeable={true} emulateTouch={true} stopOnHover={true}>
                 <div>
                     <img src={require("../../assets/freecodecamptwo.webp")} alt="Certificate" style={{height: "600px"}}></img>
@@ -52,13 +48,9 @@ const Certificates = () => {
                 </div>
             </Carousel>
             </div>
-            </div>
-            </div>
             <div className='row'>
-            <div className='col-12'>
             <div className='note'>
             <p className='certificates-notes'><span id='note'>Note:</span><span> In order to view the Openclassroom Certificates enter my last name<span id="lname"> Elkhaili </span>in the input box</span></p>
-            </div>
             </div>
             </div>
         </div>

@@ -1,15 +1,15 @@
 .projects-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding-top: 60px;
     gap: 100px;
-    padding-top: 80px;
     max-height: 340px;
 }
 
 .personalProjects-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding-top: 210px;
+    padding-top: 200px;
     gap: 100px;
 }
 
@@ -55,7 +55,34 @@
     background-color: #0030cf;
 }
 
+@media (max-width: 1000px) {
+    .projects-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        grid-column-gap: 0px !important;
+    }
+    
+    .personalProjects-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        grid-column-gap: 0px !important;
+        padding-top: 530px;
+    }
+}
 
-
-
-
+@media (max-width: 770px) {
+    .projects-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+        grid-column-gap: 0px !important;
+    }
+    
+    .personalProjects-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+        grid-column-gap: 0px !important;
+        padding-top: 940px;
+    }
+}

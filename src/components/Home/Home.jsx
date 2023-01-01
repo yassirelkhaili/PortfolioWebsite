@@ -34,10 +34,10 @@ const Home = () => {
     }, [])
   return ( 
   <div className="container" id="Home">
-    <div className="row g-5">
-    <div className="header-div col-6">
-    <div className="main-header" data-aos="fade-up">
-    <p className="header">Hi, There,<p className="fullname">I'm Yassir <span className="Lastname">Elkhaili</span></p><div className="animated-text"><span className="holder">I Am Into </span><span className="animated" ref={el}></span></div></p> 
+    <div className="row">
+    <div className="header-div col-md-6">
+    <div className="main-header">
+    <div className="header">Hi, There,<div className="fullname">I'm Yassir <span className="Lastname">Elkhaili</span></div><div className="animated-text"><span className="holder">I Am Into </span><span className="animated" ref={el}></span></div></div> 
     <div className="my-about-button" data-aos="fade-up">
       <a id="about-button" href="#About">About Me <span className="myIcon"><FaArrowCircleDown /></span></a>
       <ul id="socials">
@@ -49,9 +49,9 @@ const Home = () => {
     </div>
     </div>
     </div>
-    <div className="col-6">
+    <div className="col-md-6 text-md-end text-center pt-5 pt-md-0">
     <Tilt tiltEnable="true" perspective="10000">
-    <img className="profilepic" alt="profilpic" src={require("../../assets/profilepic.webp")} data-aos="fade-up"></img>
+    <img className="myprofilepic img-fluid" alt="profilepic" src={require("../../assets/profilepic.webp")}></img>
     </Tilt>
     </div>
     </div>

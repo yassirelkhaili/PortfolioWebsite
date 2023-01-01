@@ -4,6 +4,12 @@
     padding-top: 80px;
 }
 
+.carousel .thumbs-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .carousel .thumb {
     margin-left: 20px;
     height: 50px
@@ -34,5 +40,15 @@
 }
 
 .carousel .control-prev.control-arrow:before {
-    border-right: 8px solid #01B9FF !important;
+    border-right: 8px solid #1DDDBC !important;
 }
+
+.carousel .control-next.control-arrow:before {
+    border-left:8px solid #1DDDBC !important;
+}
+
+.carousel-slider {
+    margin-right: 0rem !important;
+    width: 100% !important;
+}
+
