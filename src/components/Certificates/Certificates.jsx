@@ -23,6 +23,12 @@ const Certificates = () => {
                     <a href='https://www.freecodecamp.org/certification/Blue479/responsive-web-design' id='link' className='legend' target="_blank" rel="noreferrer">View Cetrtificate</a>
                 </div>
                 <div>
+                    <img src={require("../../assets/frontend_1.webp")} alt="Certificate" style={{height: "600px"}} />
+                </div>
+                <div>
+                    <img src={require("../../assets/backend_1.webp")} alt="Certificate" style={{height: "600px"}} />
+                </div>
+                <div>
                     <img src={require("../../assets/openclassroomsfour.webp")} alt="Certificate" style={{height: "600px"}} />
                     <a href='https://openclassrooms.com/fr/course-certificates/4164787419' id='link' className='legend' target="_blank" rel="noreferrer">View Cetrtificate</a>
                 </div>

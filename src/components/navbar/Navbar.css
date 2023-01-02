@@ -122,9 +122,40 @@ img {
     background-color: #0f0f0f;
     border: none;
   }
+  
+  .settings-btn {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
 
+  .settings-btn-active {
+ transform: rotate(45deg);
+  }
 
-  @media (max-width: 890px) {
+  .languages {
+    display: none;
+  }
+
+  .languages-active1 {
+    display: flex !important;
+    flex-direction: column !important;  
+    justify-content: start !important;
+    align-items: flex-start !important;
+    gap: 20px !important;
+    padding: 20px !important;
+  }
+
+  .languages-active2 {
+    display: block !important;
+  }
+
+  .spacer {
+    display: none;
+  }
+
+  @media (max-width: 960px) {
 
     .animated-icon3{
         display: flex;
@@ -142,9 +173,21 @@ img {
         gap: 20px !important;
         padding: 20px !important;
     }
-    
+
     .active2{
-     display: block !important;
-    }
+      display: block !important;
+     }
+
+     .settings-btn {
+      display: none;
+     }
+
+     .languages {
+      display: flex;
+     }
+
+     .spacer {
+      display: inline;
+     }
     }
   

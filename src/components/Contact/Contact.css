@@ -118,7 +118,7 @@ font-size: 16px;
 
 @media (max-width: 888px) {
   .disclaimer-text {
-    width: 60%;
+    width: 70%;
     text-align: left;
   }
 }
