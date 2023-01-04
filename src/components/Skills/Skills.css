@@ -67,6 +67,7 @@
   flex-direction: row;
   padding-top: 90px;
 }
+
 @media (max-width: 766px) {
   .skills-col {
     display: flex !important;

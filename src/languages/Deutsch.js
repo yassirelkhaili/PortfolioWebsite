@@ -46,8 +46,8 @@ const Deutsch = {
   ],
   paragraph:
     "Hallo! Ich heiße Yassir Elkhaili, der derzeit an der Webcinq Training School ausgebildet wird und bei Eureka Creation Praktikum macht. Ich habe eine starke Ausbildung in Informatik und habe an der Fakultät für Wissenschaft und Technik und an der Studienkolleg Johannes Gutenberg Universität Mainz studiert. Ich leidenschaftlich daran interessiert, meine Fähigkeiten und Kenntnisse einzusetzen, um innovative Lösungen zu entwickeln und zu schaffen und suche immer nach Möglichkeiten, meine Fähigkeiten zu verbessern und zu erweitern. In meiner Freizeit halte ich mich auf dem Laufenden über die neuesten Entwicklungen in der Tech-Industrie und erkunde neue Technologien.",
-  mainHeader1: "ZuMeiner",
-  mainHeader2: "Person",
+  mainHeader1: "Über",
+  mainHeader2: "Mich",
   header: "Mein Name ist",
   subHeader: "Student, Azubi und Entwickler",
   age: "Alter",

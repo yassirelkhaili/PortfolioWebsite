@@ -9,9 +9,13 @@ const Certificates = ({ header, note1, note2, note3, view }) => {
     <div className="certificates-container container" id="Certificates">
       <div className="row">
         <div className="certificates-header">
-          <div className="contact-header" data-aos="fade-up">
+          <div
+            className="skills-header projects-header"
+            id="skills-header"
+            data-aos="fade-up"
+          >
             <TbCertificate />
-            <span className="me">{header}</span>
+            <span className="me abilities">{header}</span>
           </div>
         </div>
       </div>

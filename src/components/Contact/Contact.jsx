@@ -55,9 +55,13 @@ const Contact = ({
 
   return (
     <div id="Contact">
-      <div className="contact-header" data-aos="fade-up">
-        <BiMessageDetail /> {header1}
-        <span className="me">{header2}</span>
+      <div className="row">
+        <div className="col contact-col" data-aos="fade-up">
+          <div className="contact-header">
+            <BiMessageDetail /> {header1}
+          </div>
+          <div className="me">{header2}</div>
+        </div>
       </div>
       <div className="wrapper">
         <div className="form-container">

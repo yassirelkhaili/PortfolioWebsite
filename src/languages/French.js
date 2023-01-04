@@ -24,8 +24,8 @@ const French = {
   note2:
     "Pour vérifier les certificats Openclassroom, entrez mon nom de famille",
   note3: "dans la zone de saisie",
-  skillsHeader1: "Compétences&",
-  skillsHeader2: "Connaissances",
+  skillsHeader1: "",
+  skillsHeader2: "Compétences",
   item1: "Accueil",
   item2: "Àpropos",
   item3: "Compétences",

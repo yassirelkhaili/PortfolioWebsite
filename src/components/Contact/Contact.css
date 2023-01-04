@@ -33,15 +33,6 @@ textarea {
   font-size: 16px;
 }
 
-.contact-header {
-  font-size: 40px;
-  font-family: "Orbitron", sans-serif;
-  padding-top: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 label {
   margin-left: 5px;
   font-size: 18px;
@@ -114,6 +105,26 @@ textarea {
 
 .submit-btn-icon {
   transition: 0.2s;
+}
+
+.contact-col {
+  font-size: 40px;
+  font-family: "Orbitron", sans-serif;
+  padding-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+@media (max-width: 766px) {
+  .contact-col {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    width: min-content !important;
+  }
 }
 
 @media (max-width: 888px) {
