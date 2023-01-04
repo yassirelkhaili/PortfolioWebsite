@@ -71,7 +71,7 @@ textarea {
   padding-left: 20px;
   padding-right: 20px;
   font-weight: 500;
-  width: 200px;
+  min-width: 200px;
   cursor: pointer;
   margin-top: 10px;
 }
@@ -109,7 +109,7 @@ textarea {
 }
 
 .submit-btn-icon:hover {
-font-size: 16px;
+  font-size: 16px;
 }
 
 .submit-btn-icon {

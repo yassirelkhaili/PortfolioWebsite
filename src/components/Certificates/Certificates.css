@@ -1,54 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 .myCarousel {
-    padding-top: 80px;
+  padding-top: 80px;
 }
 
 .carousel .thumbs-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .carousel .thumb {
-    margin-left: 20px;
-    height: 50px
+  margin-left: 20px;
+  height: 50px;
 }
 
 #link {
-    width: 200px;
-    background-color: #0037ec;
-    color: white;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
+  width: 200px;
+  background-color: #0037ec;
+  color: white;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
 }
 
 .certificates-notes {
-    text-align: center;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    padding-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding-top: 20px;
 }
 
 #note {
-    color: #1DDDBC;
+  color: #1dddbc;
 }
 
 #lname {
-    color: #01B9FF;
+  color: #01b9ff;
 }
 
 .carousel .control-prev.control-arrow:before {
-    border-right: 8px solid #1DDDBC !important;
+  border-right: 8px solid #1dddbc !important;
 }
 
 .carousel .control-next.control-arrow:before {
-    border-left:8px solid #1DDDBC !important;
+  border-left: 8px solid #1dddbc !important;
 }
 
 .carousel-slider {
-    margin-right: 0rem !important;
-    width: 100% !important;
+  margin-right: 0rem !important;
+  width: 100% !important;
 }
-

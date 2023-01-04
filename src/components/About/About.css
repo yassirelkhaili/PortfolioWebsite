@@ -1,109 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 .me {
-color: #1DDDBC;
+  color: #1dddbc;
 }
 
 .about-header {
-    font-size: 40px;
-    font-family: 'Orbitron', sans-serif;
-    padding-top: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-size: 40px;
+  font-family: "Orbitron", sans-serif;
+  padding-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .age-email {
-    display: flex;
-    gap: 186px;
+  display: flex;
+  gap: 186px;
 }
 
 .whatsapp-address {
-    display: flex;
-    gap: 50px;
+  display: flex;
+  gap: 50px;
 }
 
 .about-content {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 .about-content > * {
-    padding-bottom: 30px;
-    font-family: 'Roboto', sans-serif;
+  padding-bottom: 30px;
+  font-family: "Roboto", sans-serif;
 }
 
 .about-button {
-    text-align: center;
+  text-align: center;
 }
 
 .myLinks {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 #btn {
-    padding-top: 40px;
+  padding-top: 40px;
 }
 
 .about-description {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .about-content-header {
-    font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
 }
 
 .name {
-    color: #1DDDBC;
+  color: #1dddbc;
 }
 
-#about-btn  {
-    border-radius: 30px;
-    background-color: #0037ec;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border: none;
-    transition: 0.3s;
-    padding: 14px;
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: 500;
-    width: 200px;
+#about-btn {
+  border-radius: 30px;
+  background-color: #0037ec;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  transition: 0.3s;
+  padding: 14px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 500;
+  width: 200px;
 }
 
 #about-btn:hover {
-    background-color: #0030ce;
-    }
-    
+  background-color: #0030ce;
+}
+
 .download-icon {
-    transition: 0.3s;
+  transition: 0.3s;
 }
 
 .download-icon:hover {
-    padding-left: 4px;
+  padding-left: 4px;
 }
 
 .content > * {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 p.paragraph {
-    line-height: 28px;
+  line-height: 28px;
 }
 
 .personalpic {
-    filter: grayscale(100%);
-    height: 400px;
-    width: 400px;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    transition: 0.3s;
+  filter: grayscale(100%);
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transition: 0.3s;
 }
 
 .personalpic:hover {
-    filter: grayscale(0%);
-    transform: scale(1.1);
+  filter: grayscale(0%);
+  transform: scale(1.1);
 }

@@ -1,56 +1,78 @@
 #skills-header {
-    font-size: 40px;
-    font-family: 'Orbitron', sans-serif;
-    padding-top: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-size: 40px;
+  font-family: "Orbitron", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .abilities {
-    color: #1DDDBC;
+  color: #1dddbc;
+  font-size: 40px;
+  font-family: "Orbitron", sans-serif;
 }
 
 .card-wrapper {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-row-gap: 40px;
-    margin-top: 50px;
-    gap: 70px;
-    padding-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-row-gap: 40px;
+  margin-top: 50px;
+  gap: 70px;
+  padding-top: 60px;
 }
 
 .skills-images {
-    height: 50px;
-    width: 50px;
+  height: 50px;
+  width: 50px;
 }
 
 .skill-container {
-    text-align: center;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    background-color: rgba(255, 255, 255, 0.02);
-    border-radius: 10px;
-    width: 160px;
-    padding: 20px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.02);
+  border-radius: 10px;
+  width: 160px;
+  padding: 20px;
 }
 
 .skill-title {
-    font-size: 20px;
-    font-family: 'Orbitron', sans-serif;
-    color: white;
+  font-size: 20px;
+  font-family: "Orbitron", sans-serif;
+  color: white;
 }
 
 @media (max-width: 995px) {
-    .card-wrapper {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 40px;
-    }
+  .card-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
 }
 
 @media (max-width: 570px) {
-    .card-wrapper {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 40px;
-        grid-column-gap: 0px;
-    }
+  .card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .skill-container {
+    flex: 50%;
+  }
+}
+
+.skills-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 90px;
+}
+@media (max-width: 766px) {
+  .skills-col {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    width: min-content !important;
+  }
 }

@@ -1,95 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 #Home {
-    padding-top: 150px;
+  padding-top: 150px;
 }
 
 .main-header {
-    font-size: 50px;
-    font-family: 'Orbitron', sans-serif;
+  font-size: 50px;
+  font-family: "Orbitron", sans-serif;
 }
 
 #intrests {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .fullname {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .animated-text {
-    margin-top: 20px;
-    font-size: 22px;
+  margin-top: 20px;
+  font-size: 22px;
 }
 
 .animated {
-    color: #01B9FF;
+  color: #01b9ff;
 }
 
 .my-about-button {
- margin-top: 20px;
+  margin-top: 20px;
 }
 
 #about-button {
-    border-radius: 30px;
-    background-color: #0037ec;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border: none;
-    transition: 0.3s;
-    padding: 12px;
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: 500;
+  border-radius: 30px;
+  background-color: #0037ec;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  transition: 0.3s;
+  padding: 12px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 500;
 }
 
 #about-button:hover {
-background-color: #0030ce;
+  background-color: #0030ce;
 }
 
 #socials {
-    display: flex;
-    gap: 25px;
-    margin-top: 40px;
-    padding-left: 0rem !important;
+  display: flex;
+  gap: 25px;
+  margin-top: 40px;
+  padding-left: 0rem !important;
 }
 
 #socials li a {
-    text-decoration: none;
-    color: white;
-    background-color: #0037ec;
-    border: none;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    transition: 0.3s;
-    display: grid;
-    font-size: 23px;
-    border-radius: 50%;
-    padding: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: #0037ec;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.3s;
+  display: grid;
+  font-size: 23px;
+  border-radius: 50%;
+  padding: 10px;
 }
 
 #socials li a:hover {
-    background-color: #002bb8;
+  background-color: #002bb8;
 }
 
 .myIcon {
-    transition: 0.3s;
+  transition: 0.3s;
 }
 
 .myIcon:hover {
-    padding-left: 6px;
+  padding-left: 6px;
 }
 
 .myprofilepic {
-    height: 400px;
-    width: 400px;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    transition: 0.3s;
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transition: 0.3s;
 }
 
 .myprofilepic:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }

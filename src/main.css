@@ -1,18 +1,18 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none !important;
-    --bs-gutter-x: 0rem !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  --bs-gutter-x: 0rem !important;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: #0C0C0C;
-    color: white;
+  background-color: #0c0c0c;
+  color: white;
 }
 
 ::-webkit-scrollbar {
@@ -21,15 +21,14 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: none; 
+  background: none;
 }
- 
+
 ::-webkit-scrollbar-thumb {
-  background: #999; 
+  background: #999;
   border-radius: 16px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #888; 
+  background: #888;
 }
-
