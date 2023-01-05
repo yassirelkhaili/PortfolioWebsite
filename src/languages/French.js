@@ -1,4 +1,5 @@
 const French = {
+  submitmessage: "Merci pour votre message, je vous recontacterai dès que possible !",
   signature1: "Conçu avec",
   signature2: "par",
   signature3: "",
@@ -45,7 +46,7 @@ const French = {
     "Sécurité Informatique",
   ],
   paragraph:
-    "Bonjour! Je m'appelle Yassir Elkhaili et je suis étudiant, stagiaire et développeur actuellement en formation à l'école Webcinq et en stage chez Eureka Creation. J'ai un bagage solide en informatique, ayant étudié à la Faculté des Sciences et Technologies et au Studienkolleg Johannes Gutenburg University Mainz. Je suis passionné par l'utilisation de mes compétences et connaissances pour construire et créer des solutions innovantes, et je cherche toujours des moyens d'améliorer et d'élargir mes compétences. Pendant le temps libre, j'aime rester à jour avec les derniers développements de l'industrie technologique et explorer de nouvelles technologies.",
+    "Bonjour! Je m'appelle Yassir Elkhaili et je suis actuellement formé à l'école de formation Webcinq et je suis en stage chez Eureka Création. J'ai une solide formation en informatique et j'ai étudié à la faculté des sciences et de la technologie et au Studienkolleg de l'Université Johannes Gutenberg de Mainz. Je suis passionné de mettre à profit mes compétences et mes connaissances pour développer et créer des solutions innovantes et je suis toujours à la recherche de moyens de améliorer et de développer mes compétences. En dehors du travail, je me tiens au courant des derniers développements dans l'industrie tech et j'explore de nouvelles technologies.",
   mainHeader1: "À",
   mainHeader2: "Propos",
   header: "Je suis",

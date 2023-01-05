@@ -1,4 +1,5 @@
 const Englich = {
+  submitmessage: "Thank you for your message, I will contact you back as soon as possible!",
   signature1: "Designed with",
   signature2: "by",
   signature3: "",
@@ -44,7 +45,7 @@ const Englich = {
     "I.T Security",
   ],
   paragraph:
-    "Hi there! My name is Yassir Elkhaili and I am a student, intern, and developer currently training at Webcinq Training school and interning at Eureka Creation. I have a strong background in computer science, having studied at the Faculty of Science and Technology and at Studienkolleg Johannes Gutenburg University Mainz. I am passionate about using my skills and knowledge to build and create innovative solutions, and I am always looking for ways to improve and expand my skillset. In my free time, I enjoy staying up to date with the latest developments in the tech industry and exploring new technologies.",
+    "Hi there! My name is Yassir Elkhaili and I am a student, intern, and developer currently training at Webcinq professional school and interning at Eureka Creation. I have a strong background in computer science, having studied at the Faculty of Science and Technology and at Studienkolleg Johannes Gutenburg University Mainz. I am passionate about using my skills and knowledge to build and create innovative solutions, and I am always looking for ways to improve and expand my skillset. In my free time, I enjoy staying up to date with the latest developments in the tech industry and exploring new technologies.",
   mainHeader1: "About",
   mainHeader2: "Me",
   header: "I'm",

@@ -20,6 +20,7 @@ const Contact = ({
   button,
   disclaimer1,
   disclaimer2,
+  submitMessage
 }) => {
   const [data, setdata] = useState({});
   const [buttonState, setbuttonState] = useState(false);
@@ -47,7 +48,7 @@ const Contact = ({
     e.preventDefault();
     window.Email.send(configObject).then(() => {
       setsubmitmessage(
-        "Thank you for your message, I will contact you back as soon as possible!"
+        submitMessage
       );
     });
     window.Email.send(configHost).then(setbuttonState(true));

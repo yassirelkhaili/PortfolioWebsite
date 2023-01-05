@@ -77,6 +77,7 @@ const App = () => {
         button={language.contactButton}
         disclaimer1={language.disclaimer1}
         disclaimer2={language.disclaimer2}
+        submitMessage={language.submitmessage}
       />
       <Footer
         header={language.footerHeader}

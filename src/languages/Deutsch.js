@@ -1,4 +1,5 @@
 const Deutsch = {
+  submitmessage: "Vielen Dank für Ihre Nachricht, ich werde mich schnellstmöglich bei Ihnen melden!",
   signature1: "Mit",
   signature2: "von",
   signature3: "entworfen",
@@ -45,7 +46,7 @@ const Deutsch = {
     "IT Sicherheit",
   ],
   paragraph:
-    "Hallo! Ich heiße Yassir Elkhaili, der derzeit an der Webcinq Training School ausgebildet wird und bei Eureka Creation Praktikum macht. Ich habe eine starke Ausbildung in Informatik und habe an der Fakultät für Wissenschaft und Technik und an der Studienkolleg Johannes Gutenberg Universität Mainz studiert. Ich leidenschaftlich daran interessiert, meine Fähigkeiten und Kenntnisse einzusetzen, um innovative Lösungen zu entwickeln und zu schaffen und suche immer nach Möglichkeiten, meine Fähigkeiten zu verbessern und zu erweitern. In meiner Freizeit halte ich mich auf dem Laufenden über die neuesten Entwicklungen in der Tech-Industrie und erkunde neue Technologien.",
+    "Hallo! Ich heiße Yassir Elkhaili, der derzeit an der Webcinq-Berufsschule und Eureka Creation ausgebildet wird. Ich habe eine starke Ausbildung in Informatik und habe an der Fakultät für Wissenschaft und Technik und an der Studienkolleg Johannes Gutenberg Universität Mainz studiert. Ich leidenschaftlich daran interessiert, meine Fähigkeiten und Kenntnisse einzusetzen, um innovative Lösungen zu entwickeln und zu schaffen und suche immer nach Möglichkeiten, meine Fähigkeiten zu verbessern und zu erweitern. In meiner Freizeit halte ich mich auf dem Laufenden über die neuesten Entwicklungen in der Tech-Industrie und erkunde neue Technologien.",
   mainHeader1: "Über",
   mainHeader2: "Mich",
   header: "Mein Name ist",
