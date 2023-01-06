@@ -38,10 +38,10 @@ const Deutsch = {
   homeHeader: "Hallo,",
   header2: "Ich bin",
   strings: [
-    "Webentwicklung",
+    "Web-Entwicklung",
     "Frontend-Entwicklung",
     "Systemadministration",
-    "Softwareentwicklung",
+    "Software-Entwicklung",
     "Backend-Entwicklung",
     "IT Sicherheit",
   ],
