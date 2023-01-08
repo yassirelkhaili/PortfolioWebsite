@@ -3,17 +3,21 @@ import { FaLaptopCode } from "react-icons/fa";
 import "./Skills.css";
 import Card from "./Card";
 import cardData from "./data";
+import { useContext } from "react";
+import LanguageContext from "../../languages/Language-Context";
 
-const Skills = ({ header1, header2 }) => {
+const Skills = () => {
+  const language = useContext(LanguageContext);
+  const { skillsHeader1, skillsHeader2 } = language;
   return (
     <div className="container" id="Skills">
       <div className="row">
         <div className="col skills-col" data-aos="fade-up">
           <div className="skills-header" id="skills-header">
             <FaLaptopCode />
-            {header1}
+            {skillsHeader1}
           </div>
-          <div className="abilities">{header2}</div>
+          <div className="abilities">{skillsHeader2}</div>
         </div>
       </div>
       <div className="row">

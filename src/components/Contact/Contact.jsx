@@ -8,20 +8,23 @@ import { MdEmail } from "react-icons/md";
 import { BsTelephoneForwardFill } from "react-icons/bs";
 import { AiFillMessage } from "react-icons/ai";
 import { RiSendPlaneFill } from "react-icons/ri";
+import { useContext } from "react";
+import LanguageContext from "../../languages/Language-Context";
 
-const Contact = ({
-  header1,
-  header2,
-  fname,
-  lname,
-  company,
-  phone,
-  message,
-  button,
-  disclaimer1,
-  disclaimer2,
-  submitMessage
-}) => {
+const Contact = () => {
+  const language = useContext(LanguageContext);
+  const {
+    contactHeader1,
+    contactHeader2,
+    fname,
+    lname,
+    company,
+    phone,
+    message,
+    contactButton,
+    disclaimer1,
+    disclaimer2,
+  } = language;
   const [data, setdata] = useState({});
   const [buttonState, setbuttonState] = useState(false);
   const [submitmessage, setsubmitmessage] = useState("");
@@ -47,9 +50,7 @@ const Contact = ({
   const handleSubmit = (e) => {
     e.preventDefault();
     window.Email.send(configObject).then(() => {
-      setsubmitmessage(
-        submitMessage
-      );
+      setsubmitmessage(language.submitmessage);
     });
     window.Email.send(configHost).then(setbuttonState(true));
   };
@@ -59,9 +60,9 @@ const Contact = ({
       <div className="row">
         <div className="col contact-col" data-aos="fade-up">
           <div className="contact-header">
-            <BiMessageDetail /> {header1}
+            <BiMessageDetail /> {contactHeader1}
           </div>
-          <div className="me">{header2}</div>
+          <div className="me">{contactHeader2}</div>
         </div>
       </div>
       <div className="wrapper">
@@ -189,7 +190,7 @@ const Contact = ({
                 type="submit"
                 disabled={buttonState}
               >
-                {button}{" "}
+                {contactButton}{" "}
                 <RiSendPlaneFill size="1.2em" className="submit-btn-icon" />
               </button>
             </div>

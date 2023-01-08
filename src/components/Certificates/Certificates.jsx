@@ -3,8 +3,12 @@ import "./Certificates.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import { TbCertificate } from "react-icons/tb";
+import { useContext } from "react";
+import LanguageContext from "../../languages/Language-Context";
 
-const Certificates = ({ header, note1, note2, note3, view }) => {
+const Certificates = () => {
+  const language = useContext(LanguageContext);
+  const { note1, note2, note3, view, item5 } = language;
   return (
     <div className="certificates-container container" id="Certificates">
       <div className="row">
@@ -15,7 +19,7 @@ const Certificates = ({ header, note1, note2, note3, view }) => {
             data-aos="fade-up"
           >
             <TbCertificate />
-            <span className="me abilities">{header}</span>
+            <span className="me abilities">{item5}</span>
           </div>
         </div>
       </div>

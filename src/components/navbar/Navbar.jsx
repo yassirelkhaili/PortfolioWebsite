@@ -1,17 +1,11 @@
 import React from "react";
 import "./Navbar.css";
+import { useContext } from "react";
+import LanguageContext from "../../languages/Language-Context";
 
-const Navbar = ({
-  englich,
-  deutsch,
-  french,
-  home,
-  about,
-  skills,
-  projects,
-  certificates,
-  contact,
-}) => {
+const Navbar = ({ englich, deutsch, french }) => {
+  const language = useContext(LanguageContext);
+  const { item1, item2, item3, item4, item5, item6 } = language;
   const toggleElements = () => {
     let navLinks = document.getElementById("navbar");
     let navbar = document.getElementsByClassName("navbar")[0];
@@ -40,24 +34,22 @@ const Navbar = ({
         </span>
         <ul className="col" id="navbar">
           <li>
-            <a href="#Home">
-              {home}
-            </a>
+            <a href="#Home">{item1}</a>
           </li>
           <li>
-            <a href="#About">{about}</a>
+            <a href="#About">{item2}</a>
           </li>
           <li>
-            <a href="#Skills">{skills}</a>
+            <a href="#Skills">{item3}</a>
           </li>
           <li>
-            <a href="#Projects">{projects}</a>
+            <a href="#Projects">{item4}</a>
           </li>
           <li>
-            <a href="#Certificates">{certificates}</a>
+            <a href="#Certificates">{item5}</a>
           </li>
           <li>
-            <a href="#Contact">{contact}</a>
+            <a href="#Contact">{item6}</a>
           </li>
           <div className="languages" id="languages">
             <li>

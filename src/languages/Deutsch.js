@@ -1,5 +1,6 @@
 const Deutsch = {
-  submitmessage: "Vielen Dank für Ihre Nachricht, ich werde mich schnellstmöglich bei Ihnen melden!",
+  submitmessage:
+    "Vielen Dank für Ihre Nachricht, ich werde mich schnellstmöglich bei Ihnen melden!",
   signature1: "Mit",
   signature2: "von",
   signature3: "entworfen",
@@ -15,8 +16,8 @@ const Deutsch = {
   phone: "Telefon",
   message: "Nachricht",
   contactButton: "Nachricht Schicken",
-  contactheader1: "Kontakt",
-  contactheader2: "Formular",
+  contactHeader1: "Kontakt",
+  contactHeader2: "Formular",
   disclaimer1: "Beachten",
   disclaimer2:
     "Das obige Formular ist auf 100 SMTP-Anfragen pro Tag begrenzt. Wenn Sie mehrere Nachrichten gleichzeitig senden oder Anhänge verwenden möchten, kontaktieren Sie mich bitte direkt unter meiner E-Mail:",
@@ -33,7 +34,7 @@ const Deutsch = {
   item4: "Projekte",
   item5: "Zertifikate",
   item6: "Kontakt",
-  homeSubheader: "Ich intressiere mich für",
+  homeSubHeader: "Ich intressiere mich für",
   homeButton: "Über Mich",
   homeHeader: "Hallo,",
   header2: "Ich bin",

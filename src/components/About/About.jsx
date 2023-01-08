@@ -3,18 +3,22 @@ import "./About.css";
 import { BsFillPersonFill } from "react-icons/bs";
 import { FaDownload } from "react-icons/fa";
 import Tilt from "react-parallax-tilt";
+import { useContext } from "react";
+import LanguageContext from "../../languages/Language-Context";
 
-const About = ({
-  mainHeader1,
-  mainHeader2,
-  header,
-  subHeader,
-  paragraph,
-  age,
-  address,
-  addressValue,
-  downloadButton,
-}) => {
+const About = () => {
+  const language = useContext(LanguageContext);
+  const {
+    mainHeader1,
+    mainHeader2,
+    header,
+    subHeader,
+    age,
+    address,
+    addressValue,
+    paragraph,
+    downloadButton,
+  } = language;
   return (
     <div className="container" id="About">
       <div className="row">

@@ -1,5 +1,6 @@
 const French = {
-  submitmessage: "Merci pour votre message, je vous recontacterai dès que possible !",
+  submitmessage:
+    "Merci pour votre message, je vous recontacterai dès que possible !",
   signature1: "Conçu avec",
   signature2: "par",
   signature3: "",
@@ -15,8 +16,8 @@ const French = {
   phone: "Téléphone",
   message: "Message",
   contactButton: "Envoyer le message",
-  contactheader1: "Contactez",
-  contactheader2: "Moi",
+  contactHeader1: "Contactez",
+  contactHeader2: "Moi",
   disclaimer1: "Avertissement",
   disclaimer2:
     "Le formulaire ci-dessus est limité à 100 demandes smtp par jour. Si vous souhaitez envoyer plusieurs messages en même temps ou utiliser des pièces jointes, veuillez me contacter directement sur mon E-mail:",
@@ -33,7 +34,7 @@ const French = {
   item4: "Projets",
   item5: "Certificats",
   item6: "Contact",
-  homeSubheader: "Je suis intéressé par",
+  homeSubHeader: "Je suis intéressé par",
   homeButton: "À Propos de moi",
   homeHeader: "Bonjour,",
   header2: "je m'appelle",

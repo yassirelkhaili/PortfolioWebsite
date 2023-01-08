@@ -3,8 +3,12 @@ import "./Projects.css";
 import { FaClipboardList } from "react-icons/fa";
 import Tilt from "react-parallax-tilt";
 import { BsGithub } from "react-icons/bs";
+import { useContext } from "react";
+import LanguageContext from "../../languages/Language-Context";
 
-const Projects = ({ header }) => {
+const Projects = () => {
+  const language = useContext(LanguageContext);
+  const { item4 } = language;
   return (
     <div className="container" id="Projects">
       <div className="row">
@@ -14,7 +18,7 @@ const Projects = ({ header }) => {
           data-aos="fade-up"
         >
           <FaClipboardList />
-          <span className="abilities">{header}</span>
+          <span className="abilities">{item4}</span>
         </div>
       </div>
       <div className="row">
@@ -73,7 +77,13 @@ function PersonalProjects({ caption, snippet, link, github }) {
             <BsGithub />
             Github
           </a>
-          <a href={link} className="live" target="_blank" rel="noreferrer">
+          <a
+            href={link}
+            className="live"
+            id="p-projects-links"
+            target="_blank"
+            rel="noreferrer"
+          >
             Live Demo
           </a>
         </div>

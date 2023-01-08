@@ -1,5 +1,6 @@
 const Englich = {
-  submitmessage: "Thank you for your message, I will contact you back as soon as possible!",
+  submitmessage:
+    "Thank you for your message, I will contact you back as soon as possible!",
   signature1: "Designed with",
   signature2: "by",
   signature3: "",
@@ -15,8 +16,8 @@ const Englich = {
   phone: "Phone",
   message: "Message",
   contactButton: "Send Message",
-  contactheader1: "Contact",
-  contactheader2: "Me",
+  contactHeader1: "Contact",
+  contactHeader2: "Me",
   disclaimer1: "Disclaimer",
   disclaimer2:
     "The form above is limited to 100 smtp requests per day. If you wish to send multiple messages at once or use attatchements, please contact me directly on my E-mail:",
@@ -32,7 +33,7 @@ const Englich = {
   item4: "Projects",
   item5: "Certificates",
   item6: "Contact",
-  homeSubheader: "I am Into",
+  homeSubHeader: "I am Into",
   homeButton: "About Me",
   homeHeader: "Hi, there,",
   header2: "I'm",

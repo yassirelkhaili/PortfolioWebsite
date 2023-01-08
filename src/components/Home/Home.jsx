@@ -8,8 +8,12 @@ import { BsGithub } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { SiNetlify } from "react-icons/si";
 import Tilt from "react-parallax-tilt";
+import { useContext } from "react";
+import LanguageContext from "../../languages/Language-Context";
 
-const Home = ({ strings, header2, header, Button, subHeader }) => {
+const Home = () => {
+  const language = useContext(LanguageContext);
+  const { strings, header2, homeHeader, homeButton, homeSubHeader } = language;
   const el = useRef(null);
   const typed = useRef(null);
   useEffect(() => {
@@ -30,18 +34,18 @@ const Home = ({ strings, header2, header, Button, subHeader }) => {
         <div className="header-div col-md-6">
           <div className="main-header">
             <div className="header">
-              {header}
+              {homeHeader}
               <div className="fullname">
                 {header2} Yassir <span className="Lastname">Elkhaili</span>
               </div>
               <div className="animated-text">
-                <span className="holder">{subHeader} </span>
+                <span className="holder">{homeSubHeader} </span>
                 <span className="animated" ref={el}></span>
               </div>
             </div>
             <div className="my-about-button" data-aos="fade-up">
               <a id="about-button" href="#About">
-                {Button}{" "}
+                {homeButton}{" "}
                 <span className="myIcon">
                   <FaArrowCircleDown />
                 </span>
