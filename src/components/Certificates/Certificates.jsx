@@ -32,6 +32,7 @@ const Certificates = () => {
           swipeable={true}
           emulateTouch={true}
           stopOnHover={true}
+          selectedItem={0}
         >
           <div>
             <img
