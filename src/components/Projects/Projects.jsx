@@ -95,19 +95,19 @@ function PersonalProjects({ caption, snippet, link, github }) {
 const WorkProjectsData = [
   {
     id: 1,
-    caption: "Leather Pouf Store",
+    caption: "Marrakech-Leather-Pouf",
     snippet: require("../../assets/moroccanleatherpoufs.webp"),
     link: "https://www.moroccan-leather-pouf.com/",
   },
   {
     id: 2,
-    caption: "Marrakech Charity",
+    caption: "Marrakech Charity Project",
     snippet: require("../../assets/marrakechharity.webp"),
     link: "http://eurekadigital.ddns.net:8888/association/",
   },
   {
     id: 3,
-    caption: "All In Car",
+    caption: "All In Car Rental Service",
     snippet: require("../../assets/allincar.webp"),
     link: "http://eurekadigital.ddns.net:8888/allincar/",
   },
