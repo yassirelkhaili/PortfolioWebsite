@@ -95,21 +95,21 @@ function PersonalProjects({ caption, snippet, link, github }) {
 const WorkProjectsData = [
   {
     id: 1,
-    caption: "Marrakech Excursions",
-    snippet: require("../../assets/marrakechexcursions.webp"),
-    link: "https://www.marrakech-excursions.co.uk/",
+    caption: "Leather Pouf Store",
+    snippet: require("../../assets/moroccanleatherpoufs.webp"),
+    link: "https://www.moroccan-leather-pouf.com/",
   },
   {
     id: 2,
-    caption: "Funkech-E-commerce",
-    snippet: require("../../assets/funkech.webp"),
-    link: "https://www.funkech.com/?v=2a6039655313",
+    caption: "Marrakech Charity",
+    snippet: require("../../assets/marrakechharity.webp"),
+    link: "http://eurekadigital.ddns.net:8888/association/",
   },
   {
     id: 3,
-    caption: "Moroccan-Leather-Pouf",
-    snippet: require("../../assets/moroccanleatherpoufs.webp"),
-    link: "https://www.moroccan-leather-pouf.com/",
+    caption: "All In Car",
+    snippet: require("../../assets/allincar.webp"),
+    link: "http://eurekadigital.ddns.net:8888/allincar/",
   },
 ];
 
