@@ -5,6 +5,7 @@ import { FaDownload } from "react-icons/fa";
 import Tilt from "react-parallax-tilt";
 import { useContext } from "react";
 import LanguageContext from "../../languages/Language-Context";
+import aboutimg from "../../assets/img1.webp";
 
 const About = () => {
   const language = useContext(LanguageContext);
@@ -31,7 +32,7 @@ const About = () => {
         <div className="col-md-6 text-center text-md-start" data-aos="fade-up">
           <Tilt tiltEnable="true" perspective="8000">
             <img
-              src={require("../../assets/img1.webp")}
+              src={aboutimg}
               alt="personalimage"
               className="personalpic img-fluid"
             ></img>
