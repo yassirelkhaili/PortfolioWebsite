@@ -8,7 +8,7 @@ const Deutsch = {
   footerHeader3: "Yassirs Portfolio",
   footerAddress: "40090 Marrakesh, Marokko",
   footerText:
-    "Vielen Dank für Ihren Besuch in meinem Portfolio! Ich hoffe, es hat Ihnen Spaß gemacht, mehr über mich, meine Arbeit und meine Leistungen zu erfahren. Wenn Sie Fragen haben oder weiter Kontakt aufnehmen möchten, zögern Sie bitte nicht, uns über WhatsApp, E-Mail oder das obige Kontaktformular zu kontaktieren. Nochmals vielen Dank für Ihren Besuch!",
+    "Vielen Dank für Ihren Besuch in meinem Portfolio! Ich hoffe, es hat Ihnen Spaß gemacht, mehr über mich, meine Arbeit und meine Leistungen zu erfahren. Wenn Sie Fragen haben oder weiter Kontakt aufnehmen möchten, zögern Sie bitte nicht, mich über WhatsApp, E-Mail oder das obige Kontaktformular zu kontaktieren. Nochmals vielen Dank für Ihren Besuch!",
   footerHeader: "Schnelle Links",
   fname: "Vorname",
   lname: "Nachname",
