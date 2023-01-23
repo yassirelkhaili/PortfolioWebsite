@@ -10,7 +10,6 @@ import { SiNetlify } from "react-icons/si";
 import Tilt from "react-parallax-tilt";
 import { useContext } from "react";
 import LanguageContext from "../../languages/Language-Context";
-import homeimg from "../../assets/profilepic.webp";
 
 const Home = () => {
   const language = useContext(LanguageContext);
@@ -97,7 +96,7 @@ const Home = () => {
             <img
               className="myprofilepic img-fluid"
               alt="profilepic"
-              src={homeimg}
+              src={require("../../assets/profilepic.webp")}
             ></img>
           </Tilt>
         </div>

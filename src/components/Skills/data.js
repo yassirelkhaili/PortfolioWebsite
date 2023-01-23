@@ -6,48 +6,48 @@ const cardData = [
   },
   {
     id: 2,
+    name: "ExpressJS",
+    icon: require("../../assets/express.webp"),
+  },
+  {
+    id: 3,
+    name: "NodeJS",
+    icon: require("../../assets/node.webp"),
+  },
+  {
+    id: 4,
     name: "Bootstrap",
     icon: require("../../assets/bootstrap.webp"),
   },
   {
-    id: 3,
+    id: 5,
     name: "Sass",
     icon: require("../../assets/sass.webp"),
   },
   {
-    id: 4,
+    id: 6,
     name: "HTML5",
     icon: require("../../assets/html5.webp"),
   },
   {
-    id: 5,
+    id: 7,
     name: "CSS3",
     icon: require("../../assets/css3.webp"),
   },
   {
-    id: 6,
+    id: 8,
     name: "JavaScript",
     icon: require("../../assets/javascript.webp"),
   },
   {
-    id: 7,
+    id: 9,
     name: "PHP",
     icon: require("../../assets/php.webp"),
   },
   {
-    id: 8,
+    id: 10,
     name: "SQL",
     icon: require("../../assets/mysql.webp"),
-  },
-  {
-    id: 9,
-    name: "Netlify",
-    icon: require("../../assets/netlify.webp"),
-  },
-  {
-    id: 10,
-    name: "jQuery",
-    icon: require("../../assets/jquery.webp"),
   },
   {
     id: 11,
