@@ -32,7 +32,7 @@ const Projects = () => {
                 key={data.id}
               />
             );
-          })}
+            })}
         </div>
         <div className="personalProjects-container">
           {PersonalProjectsData.map((data) => {
@@ -110,6 +110,25 @@ const WorkProjectsData = [
     caption: "All In Car Rental Service",
     snippet: require("../../assets/allincar.webp"),
     link: "http://eurekadigital.ddns.net:8888/allincar/",
+  },
+  {
+    id: 4,
+    caption: "Excursions Marrakech",
+    snippet: require("../../assets/excursionsmarrakech.webp"),
+    link: "https://www.excursion-marrakech.ma/",
+  },
+  {
+    id: 5,
+    caption: "Archobook E-Commerce",
+    snippet: require("../../assets/architech.webp"),
+    link: "http://eurekadigital.ddns.net:8888/ArchiBook/",
+  },
+  {
+    id: 6,
+    caption: "Simple ExpressJS Crud",
+    snippet: require("../../assets/expresscrud.webp"),
+    link: "https://employeemanagementsystem.vercel.app/",
+    github: "https://github.com/yassirelkhaili/employeemanagementsystem"
   },
 ];
 

@@ -9,7 +9,7 @@
 .personalProjects-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding-top: 200px;
+  padding-top: 650px;
   gap: 100px;
 }
 
