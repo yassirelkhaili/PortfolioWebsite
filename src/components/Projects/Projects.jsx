@@ -24,14 +24,26 @@ const Projects = () => {
       <div className="row">
         <div className="projects-container">
           {WorkProjectsData.map((data) => {
-            return (
-              <WorkProjects
-                caption={data.caption}
-                snippet={data.snippet}
-                link={data.link}
-                key={data.id}
-              />
-            );
+            if (data.id === 3) {
+              return (
+                <PersonalProjects
+                  caption={data.caption}
+                  snippet={data.snippet}
+                  link={data.link}
+                  key={data.id}
+                  github={data.github}
+                />
+              );
+            } else {
+              return (
+                <WorkProjects
+                  caption={data.caption}
+                  snippet={data.snippet}
+                  link={data.link}
+                  key={data.id}
+                />
+              );
+            }
             })}
         </div>
         <div className="personalProjects-container">
@@ -100,16 +112,17 @@ const WorkProjectsData = [
     link: "https://www.moroccan-leather-pouf.com/",
   },
   {
+    id: 3,
+    caption: "eBay KleinenAnzeigen",
+    snippet: require("../../assets/ebay.webp"),
+    link: "https://ebay-kleinenanzeigen-clone.vercel.app/",
+    github: "https://github.com/yassirelkhaili/ebayKleinenanzeigenClone"
+  },
+  {
     id: 2,
     caption: "Marrakech Charity Project",
     snippet: require("../../assets/marrakechharity.webp"),
     link: "http://eurekadigital.ddns.net:8888/association/",
-  },
-  {
-    id: 3,
-    caption: "All In Car Rental Service",
-    snippet: require("../../assets/allincar.webp"),
-    link: "http://eurekadigital.ddns.net:8888/allincar/",
   },
   {
     id: 4,
@@ -118,17 +131,16 @@ const WorkProjectsData = [
     link: "https://www.excursion-marrakech.ma/",
   },
   {
-    id: 5,
-    caption: "Archobook E-Commerce",
-    snippet: require("../../assets/architech.webp"),
-    link: "http://eurekadigital.ddns.net:8888/ArchiBook/",
-  },
-  {
     id: 6,
     caption: "Simple ExpressJS Crud",
     snippet: require("../../assets/expresscrud.webp"),
     link: "https://employeemanagementsystem.vercel.app/",
-    github: "https://github.com/yassirelkhaili/employeemanagementsystem"
+  },
+  {
+    id: 5,
+    caption: "Archibook E-Commerce",
+    snippet: require("../../assets/architech.webp"),
+    link: "http://eurekadigital.ddns.net:8888/ArchiBook/",
   },
 ];
 

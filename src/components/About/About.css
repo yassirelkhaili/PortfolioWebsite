@@ -106,5 +106,4 @@ p.paragraph {
 
 .personalpic:hover {
   filter: grayscale(0%);
-  transform: scale(1.1);
 }

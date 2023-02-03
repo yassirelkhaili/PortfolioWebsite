@@ -17,12 +17,18 @@ const App = () => {
   const [language, setlanguage] = useState(Englich);
   const languageEnglich = () => {
     setlanguage(Englich);
+    let languageMenu = document.getElementById("language-menu");
+    languageMenu.classList.toggle("language-menu-active");
   };
   const languageDeutsch = () => {
     setlanguage(Deutsch);
+    let languageMenu = document.getElementById("language-menu");
+    languageMenu.classList.toggle("language-menu-active");
   };
   const languageFrench = () => {
     setlanguage(French);
+    let languageMenu = document.getElementById("language-menu");
+    languageMenu.classList.toggle("language-menu-active");
   };
   return (
     <LanguageContext.Provider value={language}>
