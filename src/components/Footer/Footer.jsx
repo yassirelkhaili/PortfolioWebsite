@@ -19,9 +19,6 @@ const Footer = () => {
     item5,
     item6,
     footerText,
-    signature1,
-    signature2,
-    signature3,
     footerHeader2,
     footerHeader3,
     footerAddress,
@@ -168,14 +165,6 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-      </div>
-      <div className="row page-end">
-        <h1 className="page-end-statement">
-          {signature1}{" "}
-          <i className="fa fa-heart fa-beat" style={{ color: "#880808" }}></i>{" "}
-          {signature2} <span id="page-end-name">Yassir Elkhaili</span>
-          <span> {signature3}</span>
-        </h1>
       </div>
     </div>
   );

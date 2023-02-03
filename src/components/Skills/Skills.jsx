@@ -15,7 +15,7 @@ const Skills = () => {
         <div className="col skills-col" data-aos="fade-up">
           <div className="skills-header" id="skills-header">
             <FaLaptopCode />
-            {skillsHeader1}
+            &nbsp;{skillsHeader1}
           </div>
           <div className="abilities">{skillsHeader2}</div>
         </div>

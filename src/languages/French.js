@@ -1,9 +1,6 @@
 const French = {
   submitmessage:
     "Merci pour votre message, je vous recontacterai dès que possible !",
-  signature1: "Conçu avec",
-  signature2: "par",
-  signature3: "",
   footerHeader2: "Coordonnées",
   footerHeader3: "Portfolio de Yassir",
   footerAddress: "40090 Marrakech, Maroc",
@@ -18,9 +15,6 @@ const French = {
   contactButton: "Envoyer le message",
   contactHeader1: "Contactez",
   contactHeader2: "Moi",
-  disclaimer1: "Avertissement",
-  disclaimer2:
-    "Le formulaire ci-dessus est limité à 100 demandes smtp par jour. Si vous souhaitez envoyer plusieurs messages en même temps ou utiliser des pièces jointes, veuillez me contacter directement sur mon E-mail:",
   view: "Voir le Certificat",
   note1: "Note",
   note2:

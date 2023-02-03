@@ -39,7 +39,7 @@ const Home = () => {
                 {header2} Yassir <span className="Lastname">Elkhaili</span>
               </div>
               <div className="animated-text">
-                <span className="holder">{homeSubHeader} </span>
+                <span className="holder">{homeSubHeader}</span>
                 <span className="animated" ref={el}></span>
               </div>
             </div>

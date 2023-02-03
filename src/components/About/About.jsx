@@ -23,7 +23,7 @@ const About = () => {
     <div className="container" id="About">
       <div className="row">
         <div className="about-header" id="about-header" data-aos="fade-up">
-          <BsFillPersonFill /> {mainHeader1}
+          <BsFillPersonFill />&nbsp;{mainHeader1}
           <span className="me">{mainHeader2}</span>
         </div>
       </div>

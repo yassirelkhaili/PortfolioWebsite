@@ -19,7 +19,7 @@ const Certificates = () => {
             data-aos="fade-up"
           >
             <TbCertificate />
-            <span className="me abilities">{item5}</span>
+            <span className="me abilities">&nbsp;{item5}</span>
           </div>
         </div>
       </div>

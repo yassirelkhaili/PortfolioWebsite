@@ -22,8 +22,6 @@ const Contact = () => {
     phone,
     message,
     contactButton,
-    disclaimer1,
-    disclaimer2,
   } = language;
   const [data, setdata] = useState({});
   const [buttonState, setbuttonState] = useState(false);
@@ -198,15 +196,6 @@ const Contact = () => {
               {submitmessage}
             </p>
           </form>
-        </div>
-        <div className="disclaimer-div">
-          <p className="disclaimer-text">
-            <span id="note">{disclaimer1}:</span>
-            <span>
-              {" "}
-              {disclaimer2} <span id="lname">elkhailiyassir@gmail.com</span>
-            </span>
-          </p>
         </div>
       </div>
     </div>

@@ -1,9 +1,6 @@
 const Deutsch = {
   submitmessage:
     "Vielen Dank für Ihre Nachricht, ich werde mich schnellstmöglich bei Ihnen melden!",
-  signature1: "Mit",
-  signature2: "von",
-  signature3: "entworfen",
   footerHeader2: "Kontakt info",
   footerHeader3: "Yassirs Portfolio",
   footerAddress: "40090 Marrakesh, Marokko",
@@ -18,9 +15,6 @@ const Deutsch = {
   contactButton: "Nachricht Schicken",
   contactHeader1: "Kontakt",
   contactHeader2: "Formular",
-  disclaimer1: "Beachten",
-  disclaimer2:
-    "Das obige Formular ist auf 100 SMTP-Anfragen pro Tag begrenzt. Wenn Sie mehrere Nachrichten gleichzeitig senden oder Anhänge verwenden möchten, kontaktieren Sie mich bitte direkt unter meiner E-Mail:",
   view: "Zertifikat ansehen",
   note1: "Hinweis",
   note2:

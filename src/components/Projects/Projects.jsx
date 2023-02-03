@@ -18,7 +18,7 @@ const Projects = () => {
           data-aos="fade-up"
         >
           <FaClipboardList />
-          <span className="abilities">{item4}</span>
+          <span className="abilities">&nbsp;{item4}</span>
         </div>
       </div>
       <div className="row">

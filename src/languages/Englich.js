@@ -1,9 +1,6 @@
 const Englich = {
   submitmessage:
     "Thank you for your message, I will contact you back as soon as possible!",
-  signature1: "Designed with",
-  signature2: "by",
-  signature3: "",
   footerHeader2: "Contact Info",
   footerHeader3: "Yassir's Portfolio",
   footerAddress: "40090 Marrakech, Morocco",
@@ -18,9 +15,6 @@ const Englich = {
   contactButton: "Send Message",
   contactHeader1: "Contact",
   contactHeader2: "Me",
-  disclaimer1: "Disclaimer",
-  disclaimer2:
-    "The form above is limited to 100 smtp requests per day. If you wish to send multiple messages at once or use attatchements, please contact me directly on my E-mail:",
   view: "View Certificate",
   note1: "Note",
   note2: "In order to view the Openclassroom Certificates enter my last name",
