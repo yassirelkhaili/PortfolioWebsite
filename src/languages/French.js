@@ -34,10 +34,10 @@ const French = {
   header2: "je m'appelle",
   strings: [
     "Développement Web",
-    "Développement Front End",
-    "Administration des Systèmes",
+    "Développement FrontEnd",
+    "Administration Systèmes",
     "Développement Logiciel",
-    "Développement Back End",
+    "Développement BackEnd",
     "Sécurité Informatique",
   ],
   paragraph:
