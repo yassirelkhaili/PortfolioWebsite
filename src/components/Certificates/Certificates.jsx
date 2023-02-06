@@ -36,7 +36,7 @@ const Certificates = () => {
         >
           <div>
             <img
-              src={require("../../assets/freecodecamptwo.webp")}
+              src="assets/freecodecamptwo.webp"
               alt="Certificate"
               style={{ height: "600px" }}
             ></img>
@@ -52,7 +52,7 @@ const Certificates = () => {
           </div>
           <div>
             <img
-              src={require("../../assets/freecodecampone.webp")}
+              src="assets/freecodecampone.webp"
               alt="Certificate"
               style={{ height: "600px" }}
             ></img>
@@ -68,21 +68,21 @@ const Certificates = () => {
           </div>
           <div>
             <img
-              src={require("../../assets/frontend_1.webp")}
+              src="assets/frontend_1.webp"
               alt="Certificate"
               style={{ height: "600px" }}
             />
           </div>
           <div>
             <img
-              src={require("../../assets/backend_1.webp")}
+              src="assets/backend_1.webp"
               alt="Certificate"
               style={{ height: "600px" }}
             />
           </div>
           <div>
             <img
-              src={require("../../assets/openclassroomsfour.webp")}
+              src="assets/openclassroomsfour.webp"
               alt="Certificate"
               style={{ height: "600px" }}
             />
@@ -98,7 +98,7 @@ const Certificates = () => {
           </div>
           <div>
             <img
-              src={require("../../assets/openclassroomsone.webp")}
+              src="assets/openclassroomsone.webp"
               alt="Certificate"
               style={{ height: "600px" }}
             />
@@ -114,7 +114,7 @@ const Certificates = () => {
           </div>
           <div>
             <img
-              src={require("../../assets/openclassroomstwo.webp")}
+              src="assets/openclassroomstwo.webp"
               alt="Certificate"
               style={{ height: "600px" }}
             />
@@ -130,7 +130,7 @@ const Certificates = () => {
           </div>
           <div>
             <img
-              src={require("../../assets/openclassroomsthree.webp")}
+              src="assets/openclassroomsthree.webp"
               alt="Certificate"
               style={{ height: "600px" }}
             />
@@ -146,7 +146,7 @@ const Certificates = () => {
           </div>
           <div>
             <img
-              src={require("../../assets/openclassroomsfive.webp")}
+              src="assets/openclassroomsfive.webp"
               alt="Certificate"
               style={{ height: "600px" }}
             />
@@ -162,7 +162,7 @@ const Certificates = () => {
           </div>
           <div>
             <img
-              src={require("../../assets/openclassroomssix.webp")}
+              src="assets/openclassroomssix.webp"
               alt="Certificate"
               style={{ height: "600px" }}
             />

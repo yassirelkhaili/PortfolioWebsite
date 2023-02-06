@@ -96,7 +96,7 @@ const Home = () => {
             <img
               className="myprofilepic img-fluid"
               alt="profilepic"
-              src={require("../../assets/profilepic.webp")}
+              src="assets/profilepic.webp"
             ></img>
           </Tilt>
         </div>

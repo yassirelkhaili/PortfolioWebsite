@@ -28,7 +28,7 @@ const Navbar = ({ englich, deutsch, french }) => {
           <img
             alt="logo"
             className="logo"
-            src={require("../../assets/logo.png")}
+            src="assets/logo.png"
           ></img>
           Yassir Elkhaili
         </span>

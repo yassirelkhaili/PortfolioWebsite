@@ -31,7 +31,7 @@ const About = () => {
         <div className="col-md-6 text-center text-md-start" data-aos="fade-up">
           <Tilt tiltEnable="true" perspective="8000">
             <img
-              src={require("../../assets/img1.webp")}
+              src="assets/img1.webp"
               alt="personalimage"
               className="personalpic img-fluid"
             ></img>
@@ -79,7 +79,7 @@ const About = () => {
           <div className="about-button">
             <a
               id="about-btn"
-              href={require("../../assets/Lebenslauf_1.pdf")}
+              href="assets/Lebenslauf_1.pdf"
               download="Lebenslauf_1.pdf"
               value="Download CV"
             >
