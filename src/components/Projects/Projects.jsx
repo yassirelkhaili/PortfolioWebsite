@@ -113,7 +113,7 @@ const WorkProjectsData = [
   },
   {
     id: 3,
-    caption: "eBay KleinenAnzeigen",
+    caption: "eBay Clone KleinenAnzeigen",
     snippet: require("../../assets/ebay.webp"),
     link: "https://ebay-kleinenanzeigen-clone.vercel.app/",
     github: "https://github.com/yassirelkhaili/ebayKleinenanzeigenClone"
